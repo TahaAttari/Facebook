@@ -101,8 +101,8 @@ def some_action(friend):
 
 # these parameters come from the facebook app
 # the app secret should be stored elsewhere on a final build
-app_id = '243410302710454'
-app_secret = 'e6c6be6991ced88a29acdebf18428a8b'
+app_id = '*Enter your own APP ID*'
+app_secret = '*Enter your own APP SECRET*'
 
 # these are commands from the Graph API explorer
 photos_likes = '?fields=photos.limit(100){likes.limit(20).order(reverse_chronological)}'
